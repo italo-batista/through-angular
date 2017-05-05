@@ -2,7 +2,7 @@
  * Created by italohmb on 17/01/17.
  */
 
-var app = angular.module("myApp", []);
+var app = angular.module("myApp", ['nvd3']);
 
 
 /**
