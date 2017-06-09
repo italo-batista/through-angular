@@ -3,4 +3,5 @@ Irei usar esse espaço como uma referência para boas práticas indicadas na apr
 
 
 1#  https://toddmotto.com/digging-into-angulars-controller-as-syntax/
-    "Controller as Syntax"
+    "Controller as Syntax"    
+2# Remember: python -m SimpleHTTPServer 8888
