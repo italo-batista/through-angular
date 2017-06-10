@@ -12,7 +12,6 @@
     <script src='libs/d3.min.js'></script>
     <script src='libs/nv.d3.min.js'></script>
     <script src='libs/angular-nvd3.min.js'></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-nvd3/1.0.9/angular-nvd3.min.js"></script>
 </head>
 
 
@@ -40,13 +39,7 @@
     </div>
 </div>
 
-<!-- Show graph using NVD3 -->
-<div ng-controller="RandomData as rData">
-    <nvd3 options="options" data="data"></nvd3>
-</div>
-
-
-
+<bars-chart chart-data="40,100,80,15,25,60,10" ></bars-chart>
 
 <!-- Modules -->
 <script src="js/app.js"></script>
@@ -61,6 +54,7 @@
 
 <!-- Directives -->
 <script src="js/directives/helloDir.js"></script>
+<script src="js/directives/d3Dir.js"></script>
 
 </body>
 </html>
